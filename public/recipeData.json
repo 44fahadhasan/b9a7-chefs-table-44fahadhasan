@@ -1,0 +1,114 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_img": "https://i.ibb.co/DrtGpyK/chicken-curry.jpg",
+    "recipe_name": "Chicken Curry",
+    "description": "A delicious and aromatic chicken curry.",
+    "ingredients": [
+      "550 g chicken",
+      "120 ml soy sauce",
+      "200 g basil leaf",
+      "400 g mushroom"
+    ],
+    "preparing_time": 45,
+    "calories": 350
+  },
+  {
+    "recipe_id": 2,
+    "recipe_img": "https://i.ibb.co/G9ZQMHL/spaghetti-bolognese.jpg",
+    "recipe_name": "Spaghetti Bolognese",
+    "description": "Classic spaghetti with rich bolognese sauce.",
+    "ingredients": [
+      "400 g spaghetti",
+      "500 g ground beef",
+      "200 g tomato sauce",
+      "100 g grated Parmesan cheese"
+    ],
+    "preparing_time": 30,
+    "calories": 450
+  },
+  {
+    "recipe_id": 3,
+    "recipe_img": "https://i.ibb.co/Jq0cKz2/vegetable-stir-fry.jpg",
+    "recipe_name": "Vegetable Stir Fry",
+    "description": "Healthy and colorful vegetable stir fry.",
+    "ingredients": [
+      "300 g mixed vegetables",
+      "150 g tofu",
+      "50 ml soy sauce",
+      "100 g bean sprouts"
+    ],
+    "preparing_time": 20,
+    "calories": 250
+  },
+  {
+    "recipe_id": 4,
+    "recipe_img": "https://i.ibb.co/F7JPc3f/salmon-salad.jpg",
+    "recipe_name": "Salmon Salad",
+    "description": "Fresh and nutritious salmon salad.",
+    "ingredients": [
+      "200 g salmon fillet",
+      "100 g mixed greens",
+      "50 g cherry tomatoes",
+      "30 ml balsamic vinaigrette"
+    ],
+    "preparing_time": 15,
+    "calories": 300
+  },
+  {
+    "recipe_id": 5,
+    "recipe_img": "https://i.ibb.co/f8w4H6r/vegan-curry.jpg",
+    "recipe_name": "Vegan Curry",
+    "description": "A flavorful vegan curry with tofu and vegetables.",
+    "ingredients": [
+      "400 g tofu",
+      "300 g mixed vegetables",
+      "200 ml coconut milk",
+      "50 g curry paste"
+    ],
+    "preparing_time": 40,
+    "calories": 320
+  },
+  {
+    "recipe_id": 6,
+    "recipe_img": "https://i.ibb.co/5W6Qs2w/pizza.jpg",
+    "recipe_name": "Margherita Pizza",
+    "description": "Classic Margherita pizza with tomato sauce and mozzarella cheese.",
+    "ingredients": [
+      "300 g pizza dough",
+      "200 g tomato sauce",
+      "150 g mozzarella cheese",
+      "10 g fresh basil"
+    ],
+    "preparing_time": 25,
+    "calories": 400
+  },
+  {
+    "recipe_id": 7,
+    "recipe_img": "https://i.ibb.co/rsR5PNx/chocolate-cake.jpg",
+    "recipe_name": "Chocolate Cake",
+    "description": "Indulgent chocolate cake with rich frosting.",
+    "ingredients": [
+      "250 g all-purpose flour",
+      "200 g sugar",
+      "100 g cocoa powder",
+      "150 ml vegetable oil"
+    ],
+    "preparing_time": 50,
+    "calories": 380
+  },
+  {
+    "recipe_id": 8,
+    "recipe_img": "https://i.ibb.co/98qKBJL/smoothiejpeg.jpg",
+    "recipe_name": "Green Smoothie",
+    "description": "Healthy and refreshing green smoothie.",
+    "ingredients": [
+      "150 g spinach",
+      "100 g banana",
+      "50 g pineapple",
+      "200 ml almond milk"
+    ],
+    "preparing_time": 10,
+    "calories": 150
+  }
+]
