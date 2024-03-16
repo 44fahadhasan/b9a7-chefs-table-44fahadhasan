@@ -11,3 +11,12 @@
 .lexend {
   font-family: "Lexend", sans-serif;
 }
+
+.bannar-img {
+  background: linear-gradient(
+      0deg,
+      rgba(21, 11, 43, 0.9) 0%,
+      rgba(21, 11, 43, 0) 100%
+    ),
+    url("./assets/banar-bg.jpeg") lightgray 0px -18.896px / 100% 123.31% no-repeat;
+}
