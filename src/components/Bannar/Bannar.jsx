@@ -14,7 +14,7 @@ const Bannar = () => {
             Explore Now
           </button>
           <button className="text-xl text-white bg-transparent hover:bg-transparent btn font-medium rounded-full">
-            Explore Now
+            Our Feedback
           </button>
         </div>
       </div>
