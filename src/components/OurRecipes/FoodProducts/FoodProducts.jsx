@@ -6,7 +6,7 @@ const FoodProducts = ({ handelWantToCook }) => {
 
   // load recipes all data
   useEffect(() => {
-    fetch("./public/file.json")
+    fetch("/data.json")
       .then((res) => res.json())
       .then((data) => setRescipes(data));
   }, []);
