@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import SectionContent from "../SectionContent/SectionContent";
-import Toast from "../Toast/Toast";
 import FoodProducts from "./FoodProducts/FoodProducts";
 import ProductCart from "./ProductCart/ProductCart";
 
 const OurRecipes = () => {
   const [addRecipeToWantToCart, setAddRecipeToWantToCart] = useState([]);
-  const [isShow, setIsShow] = useState(false);
 
   const handelWantToCook = (recipe, recipeId) => {
     const isAvailableRecipeOnWantToCart = addRecipeToWantToCart.find(
@@ -16,7 +16,7 @@ const OurRecipes = () => {
       setAddRecipeToWantToCart([...addRecipeToWantToCart, recipe]);
       return;
     } else {
-      setIsShow(true);
+      toast("You can not select a single recipe more than once.");
     }
   };
 
@@ -29,19 +29,9 @@ const OurRecipes = () => {
     }
   };
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsShow(false);
-    }, 1000);
-  }, [isShow]);
-
   return (
     <>
-      <div>
-        {isShow && (
-          <Toast text={" You can not select a single recipe more than once."} />
-        )}
-      </div>
+      <ToastContainer />
 
       <div className="">
         <SectionContent />
